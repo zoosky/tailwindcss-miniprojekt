@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-miniprojekt",
+  "name": "miniproject",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,17 +7,9 @@
     "build": "postcss tailwind.css -o dist/css/styles.css",
     "watch": "postcss tailwind.css -o dist/css/styles.css --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zoosky/tailwindcss-miniprojekt.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zoosky/tailwindcss-miniprojekt/issues"
-  },
-  "homepage": "https://github.com/zoosky/tailwindcss-miniprojekt#readme",
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.1",
