@@ -2,9 +2,16 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    debugScreens: { 
+      position: ['top', 'left'],
+    },
     extend: {
-      debugScreens: { position: ['top', 'left'],
+      fontFamily: { 
+        ueberschrift: ['Oswald'] 
       },
+      colors: {
+        hauptfarbe : '#212f49'
+      }
     },
   },
   variants: {
@@ -12,5 +19,5 @@ module.exports = {
   },
   plugins: [
     require('tailwindcss-debug-screens')
-  ],
+  ]
 }
