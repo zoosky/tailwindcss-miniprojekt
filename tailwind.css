@@ -10,7 +10,7 @@
     }
         
     h1 {
-      @apply text-5xl mb-4lg:mb-6 font-ueberschrift text-hauptfarbe;
+      @apply mb-4 text-5xl lg:mb-6 font-ueberschrift text-hauptfarbe;
     }
     h2 {
       @apply mb-3 text-3xl font-ueberschrift text-hauptfarbe;
